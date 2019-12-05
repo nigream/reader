@@ -13,5 +13,5 @@
 /*底部*/
 .btn-group{ background-color:#fff;}
 .x-card.btn-group .btn{ color:#A0A0A0;}
-.x-card.btn-group .btn.active{ color:#121617;}
+.x-card.btn-group .btn.active{ border-bottom:2px solid #121617;color:#121617;}
 .btn-group .btn i{ font-size:30px; padding-bottom:0;}
