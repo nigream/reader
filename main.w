@@ -4,7 +4,17 @@
   <div component="$UI/system/components/justep/model/model" xid="model"/> 
 <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="mainPanel">
    <div class="x-panel-content" xid="mainContent"><div component="$UI/system/components/justep/contents/contents" class="x-contents x-full" active="0" xid="mianContents">
-   <div class="x-contents-content" xid="dailyContent"></div>
+   <div class="x-contents-content" xid="dailyContent"><div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="dailyPanel">
+   <div class="x-panel-top" xid="dailyTop">
+    <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" xid="dailyTitleBar" style="background-color:#FFFFFF;color:#121617;">
+     <div class="x-titlebar-left" xid="timeDiv">
+      <span xid="dayText" style="color:#000000;">04
+       <span xid="monthText" style="font-size:x-small;">Dec.2019</span></span> </div> 
+     <div class="x-titlebar-title flex1" xid="dailyTitle" style="font-weight:bold;font-family:宋体;">每日</div>
+     <div class="x-titlebar-right reverse" xid="weatherDiv">
+      <span xid="weatherText" style="font-size:small;color:#000000;font-weight:normal;">镇江·多云·12℃</span></div> </div> </div> 
+   <div class="x-panel-content" xid="dailyContent2">
+    </div> </div></div>
   <div class="x-contents-content" xid="libraryContent"></div>
   <div class="x-contents-content" xid="worldContent"></div>
   <div class="x-contents-content" xid="messageContent"></div>
