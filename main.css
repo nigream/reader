@@ -1,0 +1,17 @@
+.text-black{ color:#212121;}
+
+.x-cards{padding-top:0;}
+.panel{ border:0;}
+.panel.panel-default{ margin-bottom:10px;}
+.row{ margin:0;}
+
+.tb-nopadding{ padding:0;}
+.btn i{ font-size:20px;}
+.btn span{ font-size:12px; font-weight:normal;}
+
+
+/*底部*/
+.btn-group{ background-color:#fff;}
+.x-card.btn-group .btn{ color:#A0A0A0;}
+.x-card.btn-group .btn.active{ color:#121617;}
+.btn-group .btn i{ font-size:30px; padding-bottom:0;}
