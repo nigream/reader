@@ -17,7 +17,16 @@
      <div class="x-panel-content" xid="dailyContent2">
       <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="dailyPanel2">
        <div class="x-panel-top" xid="dailySelectTop">
-        </div> 
+        <div component="$UI/system/components/justep/button/buttonGroup" class="btn-group" tabbed="true" xid="dailyTopBar" selected="btnSentence">
+   <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="断章" xid="btnSentence" target="sentenceContent">
+    <i xid="i6"></i>
+    <span xid="span6">断章</span></a> 
+   <a component="$UI/system/components/justep/button/button" class="btn btn-default" xid="btnBooks" label="好书" target="booksContent">
+    <i xid="i7"></i>
+    <span xid="span7">好书</span></a> 
+   <a component="$UI/system/components/justep/button/button" class="btn btn-default" xid="btnStory" label="故事" target="storyContent">
+    <i xid="i8"></i>
+    <span xid="span8">故事</span></a> </div></div> 
        <div class="x-panel-content" xid="dailyContent3">
         <div component="$UI/system/components/justep/contents/contents" class="x-contents x-full" active="0" xid="dailyContents2">
          <div class="x-contents-content" xid="sentenceContent"></div>

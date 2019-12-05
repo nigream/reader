@@ -24,7 +24,22 @@
             </div>  
             <div class="x-panel-content cJVVrEv" xid="dailyContent2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJVVrEv"> 
               <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcuQzi6v-iosstatusbar cJVVrEv" xid="dailyPanel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cJVVrEv"> 
-                <div class="x-panel-top cJVVrEv" xid="dailySelectTop" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJVVrEv"></div>  
+                <div class="x-panel-top cJVVrEv" xid="dailySelectTop" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJVVrEv"> 
+                  <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group cJVVrEv" xid="dailyTopBar" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;selected&quot;:&quot;btnSentence&quot;,&quot;tabbed&quot;:true}" __cid="cJVVrEv"> 
+                    <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cJVVrEv" xid="btnSentence" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;断章&quot;,&quot;target&quot;:&quot;sentenceContent&quot;}" __cid="cJVVrEv"> 
+                      <i xid="i6" __cid="cJVVrEv" class="cJVVrEv"/>  
+                      <span xid="span6" __cid="cJVVrEv" class="cJVVrEv">断章</span>
+                    </a>  
+                    <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cJVVrEv" xid="btnBooks" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;好书&quot;,&quot;target&quot;:&quot;booksContent&quot;}" __cid="cJVVrEv"> 
+                      <i xid="i7" __cid="cJVVrEv" class="cJVVrEv"/>  
+                      <span xid="span7" __cid="cJVVrEv" class="cJVVrEv">好书</span>
+                    </a>  
+                    <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cJVVrEv" xid="btnStory" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;故事&quot;,&quot;target&quot;:&quot;storyContent&quot;}" __cid="cJVVrEv"> 
+                      <i xid="i8" __cid="cJVVrEv" class="cJVVrEv"/>  
+                      <span xid="span8" __cid="cJVVrEv" class="cJVVrEv">故事</span>
+                    </a> 
+                  </div>
+                </div>  
                 <div class="x-panel-content cJVVrEv" xid="dailyContent3" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJVVrEv"> 
                   <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cJVVrEv" xid="dailyContents2" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cJVVrEv"> 
                     <div class="x-contents-content active cJVVrEv" xid="sentenceContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cJVVrEv"/>  
