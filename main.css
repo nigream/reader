@@ -20,8 +20,11 @@
 /*daily*/
 
 /*sentence*/
-.btn {color:#A0A0A0;}
-.btn:hover {color: #F47474;}
- /*active 要在后面 否则会被hover覆盖*/
+.bggray{color:#A0A0A0;}
+.bgred{color:#F47474;}
+/*.btn:hover {color: #F47474;}
 .btn:focus {color: #F47474;}
-.btn:active {color: #F47474;}
+.btn:active {color: #F47474;}*/
+
+/*.x-btn-checkbox {background-color:#A0A0A0;}
+.x-btn-checkbox {color:#A0A0A0;}*/

@@ -53,15 +53,16 @@
     <div xid="sentenceAuthorDiv" style="margin-top:30px;">
      <span xid="sentenceAuthorSpan" style="font-size:x-small;">张嘉佳《从你的全世界路过》</span></div> 
     <div xid="sentenceBtnDiv" align="right" style="margin-top:10px;padding-right:10px;">
-     <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon" label="button" xid="sentenceBtnCollect" icon="icon-ios7-star">
+     <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-icon-left bggray" label="125" xid="sentenceBtnCollect" icon="icon-ios7-star" onClick="sentenceBtnCollectClick">
       <i xid="i16" class="icon-ios7-star"></i>
-      <span xid="span23"></span></a> 
-     <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon" label="button" xid="sentenceBtnLove" icon="icon-ios7-heart">
+      <span xid="span23">125</span></a> 
+     <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-icon-left bggray" label="253" xid="sentenceBtnLove" icon="icon-ios7-heart" onClick="sentenceBtnLoveClick">
       <i xid="i17" class="icon-ios7-heart"></i>
-      <span xid="span24"></span></a> 
-     <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon" label="button" xid="sentenceBtnShare" icon="icon-ios7-redo">
+      <span xid="span24">253</span></a> 
+     <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-icon-left bggray" label="54" xid="sentenceBtnShare" icon="icon-ios7-redo" onClick="sentenceBtnShareClick">
       <i xid="i18" class="icon-ios7-redo"></i>
-      <span xid="span25"></span></a> </div> </div> </div></div>
+      <span xid="span25">54</span></a> 
+  </div> </div> </div></div>
          <div class="x-contents-content" xid="booksContent"></div>
          <div class="x-contents-content" xid="storyContent"></div></div> </div> </div> </div> </div> </div> 
    <div class="x-contents-content" xid="libraryContent"></div>
