@@ -41,7 +41,27 @@
    <span xid="span12"></span></a></div></div> 
        <div class="x-panel-content" xid="dailyContent3">
         <div component="$UI/system/components/justep/contents/contents" class="x-contents x-full" active="0" xid="dailyContents2">
-         <div class="x-contents-content" xid="sentenceContent"></div>
+         <div class="x-contents-content  x-scroll-view" xid="sentenceContent"><div class="x-scroll" component="$UI/system/components/justep/scrollView/scrollView" xid="sentenceScrollView">
+   <div class="x-content-center x-pull-down container" xid="sentencePullDown">
+    <i class="x-pull-down-img glyphicon x-icon-pull-down" xid="i15"></i>
+    <span class="x-pull-down-label" xid="span19">下拉刷新...</span></div> 
+   <div class="x-scroll-content" xid="sentenceContext" align="center">
+    <div xid="bannerDiv">
+     <img src="$UI/books/img/piano.jpg" alt="" xid="bannerImage" style="width:100%;"></img></div> 
+    <div xid="sentenceTextDiv" style="margin-top:30px;">
+     <span xid="sentenceTextSpan">世事如书<br/>我偏爱你这一句<br/>愿做个逗号<br/>呆在你脚边<br/>但你有自己的朗读者<br/>而我只是个摆渡人<br/></span> </div> 
+    <div xid="sentenceAuthorDiv" style="margin-top:30px;">
+     <span xid="sentenceAuthorSpan" style="font-size:x-small;">张嘉佳《从你的全世界路过》</span></div> 
+    <div xid="sentenceBtnDiv" align="right" style="margin-top:10px;padding-right:10px;">
+     <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon" label="button" xid="sentenceBtnCollect" icon="icon-ios7-star">
+      <i xid="i16" class="icon-ios7-star"></i>
+      <span xid="span23"></span></a> 
+     <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon" label="button" xid="sentenceBtnLove" icon="icon-ios7-heart">
+      <i xid="i17" class="icon-ios7-heart"></i>
+      <span xid="span24"></span></a> 
+     <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon" label="button" xid="sentenceBtnShare" icon="icon-ios7-redo">
+      <i xid="i18" class="icon-ios7-redo"></i>
+      <span xid="span25"></span></a> </div> </div> </div></div>
          <div class="x-contents-content" xid="booksContent"></div>
          <div class="x-contents-content" xid="storyContent"></div></div> </div> </div> </div> </div> </div> 
    <div class="x-contents-content" xid="libraryContent"></div>

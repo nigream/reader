@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
-<div xid="window" class="window cJVVrEv" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cJVVrEv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,">
-  <style>.text-black.cJVVrEv{color: rgb(33, 33, 33)} .x-cards.cJVVrEv{padding-top: 0} .panel.cJVVrEv{border: 0} .panel.panel-default.cJVVrEv{margin-bottom: 10px} .row.cJVVrEv{margin: 0} .tb-nopadding.cJVVrEv{padding: 0} .btn.cJVVrEv i.cJVVrEv{font-size: 20px} .btn.cJVVrEv span.cJVVrEv{font-size: 12px; font-weight: normal} .btn-group.cJVVrEv{background-color: rgb(255, 255, 255)} .x-card.btn-group.cJVVrEv .btn.cJVVrEv{color: rgb(160, 160, 160)} .x-card.btn-group.cJVVrEv .btn.active.cJVVrEv{border-bottom: 2px solid rgb(18, 22, 23); color: rgb(18, 22, 23)} .btn-group.cJVVrEv .btn.cJVVrEv i.cJVVrEv{font-size: 30px; padding-bottom: 0}</style>  
+<div xid="window" class="window cJVVrEv" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cJVVrEv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,">
+  <style>.text-black.cJVVrEv{color: rgb(33, 33, 33)} .x-cards.cJVVrEv{padding-top: 0} .panel.cJVVrEv{border: 0} .panel.panel-default.cJVVrEv{margin-bottom: 10px} .row.cJVVrEv{margin: 0} .tb-nopadding.cJVVrEv{padding: 0} .btn.cJVVrEv i.cJVVrEv{font-size: 20px} .btn.cJVVrEv span.cJVVrEv{font-size: 12px; font-weight: normal} .btn-group.cJVVrEv{background-color: rgb(255, 255, 255)} .x-card.btn-group.cJVVrEv .btn.cJVVrEv{color: rgb(160, 160, 160)} .x-card.btn-group.cJVVrEv .btn.active.cJVVrEv{border-bottom: 2px solid rgb(18, 22, 23); color: rgb(18, 22, 23)} .btn-group.cJVVrEv .btn.cJVVrEv i.cJVVrEv{font-size: 30px; padding-bottom: 0} .btn.cJVVrEv{color: rgb(160, 160, 160)} .btn.cJVVrEv:hover{color: rgb(244, 116, 116)} .btn.cJVVrEv:focus{color: rgb(244, 116, 116)} .btn.cJVVrEv:active{color: rgb(244, 116, 116)}</style>  
   <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cJVVrEv" class="cJVVrEv"></div>  
   <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcuIj6Rr-iosstatusbar cJVVrEv" xid="mainPanel" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cJVVrEv"> 
     <div class="x-panel-content cJVVrEv" xid="mainContent" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJVVrEv">
@@ -57,7 +57,46 @@
                 </div>  
                 <div class="x-panel-content cJVVrEv" xid="dailyContent3" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJVVrEv"> 
                   <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cJVVrEv" xid="dailyContents2" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&#34;active&#34;:0}" __cid="cJVVrEv"> 
-                    <div class="x-contents-content active cJVVrEv" xid="sentenceContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cJVVrEv"></div>  
+                    <div class="x-contents-content  x-scroll-view active cJVVrEv" xid="sentenceContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cJVVrEv">
+                      <div class="x-scroll cJVVrEv" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="sentenceScrollView" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cJVVrEv"> 
+                        <div class="x-content-center x-pull-down container cJVVrEv" xid="sentencePullDown" __cid="cJVVrEv"> 
+                          <i class="x-pull-down-img glyphicon x-icon-pull-down cJVVrEv" xid="i15" __cid="cJVVrEv"></i>  
+                          <span class="x-pull-down-label cJVVrEv" xid="span19" __cid="cJVVrEv">下拉刷新...</span>
+                        </div>  
+                        <div class="x-scroll-content cJVVrEv" xid="sentenceContext" align="center" __cid="cJVVrEv"> 
+                          <div xid="bannerDiv" __cid="cJVVrEv" class="cJVVrEv"> 
+                            <img src="@justepContextPath@/v_8ed6caf4ab0a4cbfae01a3ff97636885l_zh_CNs_d_m/books/img/piano.jpg" alt="" xid="bannerImage" style="width:100%;" __cid="cJVVrEv" class="cJVVrEv">
+                          </div>  
+                          <div xid="sentenceTextDiv" style="margin-top:30px;" __cid="cJVVrEv" class="cJVVrEv"> 
+                            <span xid="sentenceTextSpan" __cid="cJVVrEv" class="cJVVrEv">世事如书
+                              <br __cid="cJVVrEv" class="cJVVrEv">我偏爱你这一句
+                              <br __cid="cJVVrEv" class="cJVVrEv">愿做个逗号
+                              <br __cid="cJVVrEv" class="cJVVrEv">呆在你脚边
+                              <br __cid="cJVVrEv" class="cJVVrEv">但你有自己的朗读者
+                              <br __cid="cJVVrEv" class="cJVVrEv">而我只是个摆渡人
+                              <br __cid="cJVVrEv" class="cJVVrEv">
+                            </span> 
+                          </div>  
+                          <div xid="sentenceAuthorDiv" style="margin-top:30px;" __cid="cJVVrEv" class="cJVVrEv"> 
+                            <span xid="sentenceAuthorSpan" style="font-size:x-small;" __cid="cJVVrEv" class="cJVVrEv">张嘉佳《从你的全世界路过》</span>
+                          </div>  
+                          <div xid="sentenceBtnDiv" align="right" style="margin-top:10px;padding-right:10px;" __cid="cJVVrEv" class="cJVVrEv"> 
+                            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon cJVVrEv" xid="sentenceBtnCollect" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;icon&#34;:&#34;icon-ios7-star&#34;,&#34;label&#34;:&#34;button&#34;}" __cid="cJVVrEv"> 
+                              <i xid="i16" class="icon-ios7-star cJVVrEv" __cid="cJVVrEv"></i>  
+                              <span xid="span23" __cid="cJVVrEv" class="cJVVrEv"></span>
+                            </a>  
+                            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon cJVVrEv" xid="sentenceBtnLove" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;icon&#34;:&#34;icon-ios7-heart&#34;,&#34;label&#34;:&#34;button&#34;}" __cid="cJVVrEv"> 
+                              <i xid="i17" class="icon-ios7-heart cJVVrEv" __cid="cJVVrEv"></i>  
+                              <span xid="span24" __cid="cJVVrEv" class="cJVVrEv"></span>
+                            </a>  
+                            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon cJVVrEv" xid="sentenceBtnShare" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&#34;icon&#34;:&#34;icon-ios7-redo&#34;,&#34;label&#34;:&#34;button&#34;}" __cid="cJVVrEv"> 
+                              <i xid="i18" class="icon-ios7-redo cJVVrEv" __cid="cJVVrEv"></i>  
+                              <span xid="span25" __cid="cJVVrEv" class="cJVVrEv"></span>
+                            </a> 
+                          </div> 
+                        </div> 
+                      </div>
+                    </div>  
                     <div class="x-contents-content cJVVrEv" xid="booksContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cJVVrEv"></div>  
                     <div class="x-contents-content cJVVrEv" xid="storyContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cJVVrEv"></div>
                   </div> 

@@ -15,3 +15,13 @@
 .x-card.btn-group .btn{ color:#A0A0A0;}
 .x-card.btn-group .btn.active{ border-bottom:2px solid #121617;color:#121617;}
 .btn-group .btn i{ font-size:30px; padding-bottom:0;}
+
+
+/*daily*/
+
+/*sentence*/
+.btn {color:#A0A0A0;}
+.btn:hover {color: #F47474;}
+ /*active 要在后面 否则会被hover覆盖*/
+.btn:focus {color: #F47474;}
+.btn:active {color: #F47474;}
