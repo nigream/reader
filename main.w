@@ -17,7 +17,7 @@
      <div class="x-panel-content" xid="dailyContent2">
       <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="dailyPanel2">
        <div class="x-panel-top" xid="dailySelectTop">
-        <div component="$UI/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified" tabbed="true" xid="dailyTopBar" selected="btnSentence">
+        <div component="$UI/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified underLine" tabbed="true" xid="dailyTopBar" selected="btnSentence">
    <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="断章" xid="btnSentence" target="sentenceContent">
     <i xid="i6"></i>
     <span xid="span6">断章</span></a> 
@@ -63,8 +63,55 @@
       <i xid="i18" class="icon-ios7-redo"></i>
       <span xid="span25">54</span></a> 
   </div> </div> </div></div>
-         <div class="x-contents-content" xid="booksContent"></div>
-         <div class="x-contents-content" xid="storyContent"></div></div> </div> </div> </div> </div> </div> 
+         <div class="x-contents-content" xid="booksContent"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
+   <div class="x-col x-col-33" xid="booksUI">
+   <img src="$UI/books6/img/threeBodies.png" alt="" xid="booksFace" style="width:100%;"></img></div>
+  <div class="x-col x-col-67" xid="booksIntro">
+   <div component="$UI/system/components/justep/row/row" class="x-row" xid="titleRow" style="height:35px;">
+    <div class="x-col" xid="titleCol" style="font-size:medium;font-weight:bold;">三体</div></div> 
+   <div component="$UI/system/components/justep/row/row" class="x-row" xid="writerRow" style="height:25px;">
+    <div class="x-col" xid="writerCol" style="font-size:x-small;">[中]刘慈欣</div></div> 
+   
+   <div component="$UI/system/components/justep/row/row" class="x-row" xid="scoreRow">
+   
+   
+   
+   
+   
+   <div class="x-col" xid="scoreCol">
+   <span xid="scoreTitle" class="center-block middle float">评　分:</span>
+   <div xid="starBar" class="float" style="margin-left:10px;">
+    <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon btn-padding" label="button" xid="star1" icon="icon-star">
+     <i xid="i41" class="icon-star"></i>
+     <span xid="span47"></span></a> 
+    <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon btn-padding" label="button" xid="star2" icon="icon-star">
+     <i xid="i45" class="icon-star"></i>
+     <span xid="span49"></span></a> 
+    <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon btn-padding" label="button" xid="star3" icon="icon-star">
+     <i xid="i48" class="icon-star"></i>
+     <span xid="span52"></span></a> 
+    <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon btn-padding" label="button" xid="star4" icon="icon-star">
+     <i xid="i49" class="icon-star"></i>
+     <span xid="span53"></span></a> 
+    <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon btn-padding" label="button" xid="star5" icon="icon-star">
+     <i xid="i50" class="icon-star"></i>
+     <span xid="span54"></span></a> </div> </div></div>
+   
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="avgScoreRow">
+   <div class="x-col" xid="avgScoreCol"><![CDATA[]]>
+  <span xid="avgScoreTitle"><![CDATA[平均分:]]></span>
+  <span xid="avgScore" style="margin-left:10px;"><![CDATA[9.8]]></span></div>
+  </div>
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
+   <div class="x-col" xid="col20"><a component="$UI/system/components/justep/button/button" class="btn btn-default btn-xs btn-icon-left" label="想读" xid="button10" icon="icon-ios7-heart">
+   <i xid="i20" class="icon-ios7-heart"></i>
+   <span xid="span26">想读</span></a></div>
+   <div class="x-col" xid="col21"><a component="$UI/system/components/justep/button/button" class="btn btn-default btn-xs btn-icon-left" label="在读" xid="button9" icon="icon-ios7-circle-filled">
+   <i xid="i19" class="icon-ios7-circle-filled"></i>
+   <span xid="span22">在读</span></a></div>
+   <div class="x-col" xid="col22"><a component="$UI/system/components/justep/button/button" class="btn btn-default btn-xs btn-icon-left" label="读过" xid="button11" icon="icon-ios7-star">
+   <i xid="i21" class="icon-ios7-star"></i>
+   <span xid="span27">读过</span></a></div></div></div></div></div><div class="x-contents-content" xid="storyContent"></div></div> </div> </div> </div> </div> </div> 
    <div class="x-contents-content" xid="libraryContent"></div>
    <div class="x-contents-content" xid="worldContent"></div>
    <div class="x-contents-content" xid="messageContent"></div>

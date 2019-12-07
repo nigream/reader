@@ -4,6 +4,7 @@ require('$model/UI2/system/components/justep/contents/content');
 require('$model/UI2/system/components/justep/loadingBar/loadingBar');
 require('$model/UI2/system/components/justep/button/button');
 require('$model/UI2/system/components/justep/scrollView/scrollView');
+require('$model/UI2/system/components/justep/row/row');
 require('$model/UI2/system/components/justep/titleBar/titleBar');
 require('$model/UI2/system/components/justep/panel/child');
 require('$model/UI2/system/components/justep/contents/contents');

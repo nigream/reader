@@ -13,7 +13,8 @@
 /*底部*/
 .btn-group{ background-color:#fff;}
 .x-card.btn-group .btn{ color:#A0A0A0;}
-.x-card.btn-group .btn.active{ border-bottom:2px solid #121617;color:#121617;}
+.underLine .btn.active{border-bottom:2px solid #121617;color:#121617;}
+.x-card.btn-group .btn.active{ color:#121617;}
 .btn-group .btn i{ font-size:30px; padding-bottom:0;}
 
 
@@ -26,5 +27,7 @@
 .btn:focus {color: #F47474;}
 .btn:active {color: #F47474;}*/
 
-/*.x-btn-checkbox {background-color:#A0A0A0;}
-.x-btn-checkbox {color:#A0A0A0;}*/
+/*books*/
+.float{float:left;}
+.middle{padding-top:3px;}
+.btn-padding{padding-left:0px;padding-right:0px;}

@@ -66,5 +66,13 @@ define(function(require){
 		}
 	};
 
+	Model.prototype.sentenceScrollViewPullDown = function(event){
+//		alert("nihao");
+		var dailySelectTop = this.comp('dailySelectTop');
+//		alert(dailySelectTop.get('visible'));
+		dailySelectTop.set('visible',false);
+//		alert("nihao");
+	};
+
 	return Model;
 });
