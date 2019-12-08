@@ -18,12 +18,11 @@ define(function(require){
 	var starFlag4 = false;
 	var starFlag5 = false;
 	
-	
 	var Model = function(){
 		this.callParent();
 	};
 	
-
+	
 		
 	function changeBtnColor(event){
 	
@@ -242,6 +241,8 @@ define(function(require){
 //			starFlag5 = !starFlag5;
 //		}
 	};
+	
+
 	
 
 	return Model;
