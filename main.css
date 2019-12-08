@@ -30,4 +30,15 @@
 /*books*/
 .float{float:left;}
 .middle{padding-top:3px;}
+
 .btn-padding{padding-left:0px;padding-right:0px;}
+.star-btn-color{color:#A0A0A0;}
+.star-btn-color-changed{color:#FFAC2D;}
+
+.read-bggray{background-color:#A0A0A0;color:#fff;}
+.read-bgred{background-color:#fff;color:#F47474;}
+
+.read-btn{background-color:#CC3344;color:#fff;}
+.read-btn:hover {background-color: #F47474;}
+.read-btn:focus {background-color: #F47474;}
+.read-btn:active {background-color: #F47474;}
