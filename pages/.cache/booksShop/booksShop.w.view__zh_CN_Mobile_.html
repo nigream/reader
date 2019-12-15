@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<div xid="window" class="window cmABV7f" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cmABV7f" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">
+  <style>.text-black.cmABV7f{color: rgb(18, 22, 23)} .tb-box.cmABV7f, .tb-box.cmABV7f > .col.cmABV7f{height: 100%; margin: 0; padding: 0} .tb-box.cmABV7f > .col.cmABV7f{overflow: auto} .list-group.cmABV7f{box-shadow: none} .list-group-item.cmABV7f{background-color: rgb(255, 255, 255); border: none} .list-group-item.current.cmABV7f{background-color: rgb(255, 255, 255); border-left: 4px solid rgb(207, 2, 2)} .list-group-item.current.cmABV7f h5.cmABV7f{color: rgb(207, 2, 2)}</style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cmABV7f" class="cmABV7f"></div>  
+  <div component="$model/UI2/system/components/bootstrap/row/row" class="row tb-box  cmABV7f" xid="booksShopRow" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cmABV7f"> 
+    <div class="col col-xs-3 cmABV7f" xid="shopRootClassCol" style="border-right-style:solid;border-right-width:2px;border-right-color:#F0F3F7;" __cid="cmABV7f"> 
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cmABV7f" xid="shopRootClassList" dataItemAlias="rootClassRow" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;rcBaasData &#34;}" __cid="cmABV7f"> 
+        <ul class="x-list-template list-group hide cmABV7f" xid="listTemplateUl1" __cid="cmABV7f" data-bind="foreach:{data:$model.foreach_shopRootClassList($element),afterRender:$model.foreach_afterRender_shopRootClassList.bind($model,$element),as:'rootClassRow'}"> 
+          <li xid="li1" class="list-group-item text-center cmABV7f" __cid="cmABV7f" data-bind="css:{'current':rootClassRow.val('rcid')==$model.rcBaasData .val('rcid')}"> 
+            <h5 xid="rootClassName" class="text-black cmABV7f" __cid="cmABV7f" data-bind="text:val(&#34;rcname&#34;)">h5</h5> 
+          </li> 
+        </ul> 
+      </div> 
+    </div>  
+    <div class="col col-xs-9 cmABV7f" xid="shopBooksCol" __cid="cmABV7f"> 
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cmABV7f" xid="shopBooksInfoList" dataItemAlias="booksRow" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;bBaasData&#34;,&#34;filter&#34;:&#34; $row.val(\&#34;b_rcid\&#34;) == $model.rcBaasData.val(\&#34;rcid\&#34;)&#34;}" __cid="cmABV7f"> 
+        <h5 xid="rootClassSum" style="margin-left:16px;margin-top:20px;color:#121617;" __cid="cmABV7f" class="cmABV7f" data-bind="text:'共有' +  $model.rcBaasData.val(&#34;rcsum&#34;) + '部'">h5</h5>
+        <ul class="x-list-template hide cmABV7f" xid="listTemplateUl2" __cid="cmABV7f" data-bind="foreach:{data:$model.foreach_shopBooksInfoList($element),afterRender:$model.foreach_afterRender_shopBooksInfoList.bind($model,$element),as:'booksRow'}"> 
+          <li xid="li2" class="col-xs-6 cmABV7f" __cid="cmABV7f">
+            <div xid="div1" style="height:15px;" __cid="cmABV7f" class="cmABV7f"></div>
+            <img src=" " alt="" xid="booksFace" style="height:120px;" __cid="cmABV7f" class="cmABV7f" data-bind="attr:{src:val(&#34;bimage&#34;)}">
+            <h5 xid="booksName" style="color:#121617;" __cid="cmABV7f" class="cmABV7f" data-bind="text:val(&#34;bname&#34;)">h5</h5>  
+            <h5 xid="booksWriter" style="color:#A0A0A0;font-size:x-small;" __cid="cmABV7f" class="cmABV7f" data-bind="text:val(&#34;bwriter&#34;)">h5</h5> 
+          </li> 
+        </ul> 
+      </div> 
+    </div> 
+  </div> 
+</div>

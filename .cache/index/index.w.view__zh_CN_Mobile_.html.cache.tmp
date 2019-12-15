@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cyYbm6v" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyYbm6v" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,,$model/UI2/system/components/justep/windowContainer/windowContainer,">  
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cyYbm6v" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyYbm6v" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/bootstrap/inputGroup/inputGroup,$model/UI2/system/components/justep/button/buttonGroup,,">  
   <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
   <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cyYbm6v" class="cyYbm6v"/>  
   <div xmlns="" component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cyYbm6v" xid="pages" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0,&quot;swipe&quot;:false}" __cid="cyYbm6v"> 
     <div class="x-contents-content active cyYbm6v" xid="main" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cyYbm6v"> 
       <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cyYbm6v" xid="mainContainer" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" data-config="{&quot;src&quot;:&quot;$model/UI2/books/main.w&quot;}" __cid="cyYbm6v"> 
-        <div xid="window" class="window cJVVrEv" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cJVVrEv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,"> 
+        <div xid="window" class="window cJVVrEv" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cJVVrEv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/bootstrap/inputGroup/inputGroup,$model/UI2/system/components/justep/button/buttonGroup,"> 
           <style xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-black.cJVVrEv{color: rgb(33, 33, 33)} .x-cards.cJVVrEv{padding-top: 0} .panel.cJVVrEv{border: 0} .panel.panel-default.cJVVrEv{margin-bottom: 10px} .row.cJVVrEv{margin: 0} .tb-nopadding.cJVVrEv{padding: 0} .btn.cJVVrEv i.cJVVrEv{font-size: 20px} .btn.cJVVrEv span.cJVVrEv{font-size: 12px; font-weight: normal} .btn-group.cJVVrEv{background-color: rgb(255, 255, 255)} .x-card.btn-group.cJVVrEv .btn.cJVVrEv{color: rgb(160, 160, 160)} .underLine.cJVVrEv .btn.active.cJVVrEv{border-bottom: 2px solid rgb(18, 22, 23); color: rgb(18, 22, 23)} .x-card.btn-group.cJVVrEv .btn.active.cJVVrEv{color: rgb(18, 22, 23)} .btn-group.cJVVrEv .btn.cJVVrEv i.cJVVrEv{font-size: 30px; padding-bottom: 0} .bggray.cJVVrEv{color: rgb(160, 160, 160)} .bgred.cJVVrEv{color: rgb(244, 116, 116)} .float.cJVVrEv{float: left} .middle.cJVVrEv{padding-top: 3px} .btn-padding.cJVVrEv{padding-left: 0px; padding-right: 0px} .star-btn-color.cJVVrEv{color: rgb(160, 160, 160)} .star-btn-color-changed.cJVVrEv{color: rgb(255, 172, 45)} .read-bggray.cJVVrEv{background-color: rgb(160, 160, 160); color: rgb(255, 255, 255)} .read-bgred.cJVVrEv{background-color: rgb(255, 255, 255); color: rgb(244, 116, 116)} .read-btn.cJVVrEv{background-color: rgb(204, 51, 68); color: rgb(255, 255, 255)} .read-btn.cJVVrEv:hover{background-color: rgb(244, 116, 116)} .read-btn.cJVVrEv:focus{background-color: rgb(244, 116, 116)} .read-btn.cJVVrEv:active{background-color: rgb(244, 116, 116)}</style>  
           <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cJVVrEv" class="cJVVrEv"></div>  
           <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcuIj6Rr-iosstatusbar cJVVrEv" xid="mainPanel" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cJVVrEv">  
@@ -72,7 +72,7 @@
                                 </div>  
                                 <div class="x-scroll-content cJVVrEv" xid="sentenceContext" align="center" __cid="cJVVrEv"> 
                                   <div xid="bannerDiv" __cid="cJVVrEv" class="cJVVrEv"> 
-                                    <img src="@justepContextPath@/v_a3715acae4624a01bf6556edb934bc94l_zh_CNs_d_m/books/img/piano.jpg" alt="" xid="bannerImage" style="width:100%;" __cid="cJVVrEv" class="cJVVrEv"/> 
+                                    <img src="@justepContextPath@/v_788d49a207b84276b2176671cb911d8bl_zh_CNs_d_m/books/img/piano.jpg" alt="" xid="bannerImage" style="width:100%;" __cid="cJVVrEv" class="cJVVrEv"/> 
                                   </div>  
                                   <div xid="sentenceTextDiv" style="margin-top:30px;" __cid="cJVVrEv" class="cJVVrEv"> 
                                     <span xid="sentenceTextSpan" __cid="cJVVrEv" class="cJVVrEv">世事如书 
@@ -113,7 +113,7 @@
                                 <div class="x-scroll-content cJVVrEv" xid="div2" __cid="cJVVrEv"> 
                                   <div component="$model/UI2/system/components/justep/row/row" class="x-row cJVVrEv" xid="booksInfoRow" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJVVrEv"> 
                                     <div class="x-col x-col-33 cJVVrEv" xid="booksUI" __cid="cJVVrEv"> 
-                                      <img src="@justepContextPath@/v_3361d31296d34ffb948ebea46520073cl_zh_CNs_d_m/books6/img/threeBodies.png" alt="" xid="booksFace" style="width:100%;" __cid="cJVVrEv" class="cJVVrEv"/> 
+                                      <img src="@justepContextPath@/v_a9cdfd34e95048938c6b457bada95643l_zh_CNs_d_m/books6/img/threeBodies.png" alt="" xid="booksFace" style="width:100%;" __cid="cJVVrEv" class="cJVVrEv"/> 
                                     </div>  
                                     <div class="x-col x-col-67 cJVVrEv" xid="booksIntro" __cid="cJVVrEv"> 
                                       <div component="$model/UI2/system/components/justep/row/row" class="x-row cJVVrEv" xid="titleRow" style="height:35px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJVVrEv"> 
@@ -192,7 +192,7 @@
                                     <div xid="briefTextDiv" style="padding-left:20px;padding-right:20px;margin-top:8px;" __cid="cJVVrEv" class="cJVVrEv"> 
                                       <span xid="briefTextSpan" __cid="cJVVrEv" class="cJVVrEv">文化大革命如火如荼进行的同时。军方探寻外星文明的绝秘计划“红岸工程”取得了突破性进展。但在按下发射键的那一刻，历经劫难的叶文洁没有意识到，她彻底改变了人类的命运。地球文明向宇宙发出的第一声啼鸣，以太阳为中心，以光速向宇宙深处飞驰…… 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/>四光年外，“三体文明”正苦苦挣扎——三颗无规则运行的太阳主导下的百余次毁灭与重生逼迫他们逃离母星。而恰在此时。他们接收到了地球发来的信息。在运用超技术锁死地球人的基础科学之后。三体人庞大的宇宙舰队开始向地球进发…… 
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/>四光年外，“三体文明”正苦苦挣扎——三颗无规则运行的太阳主导下的百余次毁灭与重生逼迫他们逃离母星。而恰在此时。他们接收到了地球发来的信息。在运用超技术锁死地球人的基础科学之后。三体人庞大的宇宙舰队开始向地球进发……
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 人类的末日悄然来临。
                                       </span> 
@@ -229,7 +229,7 @@
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 你永远不会和蝗虫去谈伦理与交易，况且人与三体的差距，又岂是人与蝗虫的差距能比拟的。杀蝗虫人类或许会绞尽脑汁，可是对于杀人来说，我们可以想象得到的都可以简单到一个响指。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 子非鱼，你非我，但是文明与科技确实会限制人们的想象力。在接触三体文明前的任何一秒，你都没办法脑补出所谓的道德与科技，就好像，在见到三体“人”以前的任何一秒，你都没办法想象出他们的形态。 
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 子非鱼，你非我，但是文明与科技确实会限制人们的想象力。在接触三体文明前的任何一秒，你都没办法脑补出所谓的道德与科技，就好像，在见到三体“人”以前的任何一秒，你都没办法想象出他们的形态。
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 当然，书的结尾处也留下了一颗希望的种子。虽说自比是虫子，可能也是上帝会怕的能思考的虫子。再说了，只要是真实存在于宇宙中的生命，就不能称之为上帝。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
@@ -305,7 +305,7 @@
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 沈庄周睁开眼睛，雨声和人们的抱怨几乎同时闯进他的耳朵。这是一趟上午8点启程的大巴，从西安一直开往川南山区，原本只要再过3个小时，乘客们就能到达目的地。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/> “明明出门日头还那么亮噻，真是见了鬼了，早晓得应该看看老黄历。”坐在沈庄周左边的男人一边看向窗外，一边气急败坏嘟囔着。“今天是9月12日，农历白露”，男人惊讶的眼神在沈庄周脸上一点，随即把头转向一边。
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/> “明明出门日头还那么亮噻，真是见了鬼了，早晓得应该看看老黄历。”坐在沈庄周左边的男人一边看向窗外，一边气急败坏嘟囔着。“今天是9月12日，农历白露”，男人惊讶的眼神在沈庄周脸上一点，随即把头转向一边。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 今天是9月12日，沈庄周记得的。1年2个月8天，晓梦已经离开这么久了。他把手伸进外套口袋，手指在小小的丝绒方盒上摩挲。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
@@ -315,7 +315,7 @@
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 经停的小镇偏僻，几十间农家小屋寥落地长在山脚下。不远处的山坡上分散地长着一块块杂木林，露出半遮半掩的赤黄色崖壁。唯一可以通车的土路，现在在大雨的冲刷下，基本上变成了一个烂泥塘。土路的下方是一条江，江面随着倾落的雨水翻涌滚动，目光瞟过江面，沈庄周不由自主地头晕恶心，连忙神情慌张地扭过头去不看它。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 站在沈庄周身边的，是一个五六岁的小男孩，等在雨棚下的十几分钟，他一直伸手抠沈庄周外套左手上的扣子。像忽然想到了什么似的，小男孩转过头大声地问，“妈妈，大海里有什么？”牵着他的中年女人胖胖的，声音有点憨，“宝宝，这是江，不是大海”。小孩子抬起手，依旧用稚嫩的声音重复了一遍，“大海里有什么？” 
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 站在沈庄周身边的，是一个五六岁的小男孩，等在雨棚下的十几分钟，他一直伸手抠沈庄周外套左手上的扣子。像忽然想到了什么似的，小男孩转过头大声地问，“妈妈，大海里有什么？”牵着他的中年女人胖胖的，声音有点憨，“宝宝，这是江，不是大海”。小孩子抬起手，依旧用稚嫩的声音重复了一遍，“大海里有什么？”
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 大海里有什么？顾晓梦也曾经这样问过他。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
@@ -333,11 +333,11 @@
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> “兄弟，住房吗？”沈庄周回过神，眼前是一张中年男人的脸，因为长期的日晒，显得尤为黝黑粗糙，一双眼睛却晶亮。看见他抬头望天，男人立马补上一句，“莫看现在雨停喽，黑云还挂在大西头噻，落雨天一时半会不得停，不落个两天落不透。” 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 沈庄周没有说话，间隔一步远的距离，跟着男人走向不远处的三层小楼。湿漉漉的天，湿漉漉的屋檐，湿漉漉的泥地，他却莫名闻见一股燃烧后的味道，这味道让他想起大火后的树林，焚烧过的庄稼，还有，那夜给晓梦烧尽的纸钱。 
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 沈庄周没有说话，间隔一步远的距离，跟着男人走向不远处的三层小楼。湿漉漉的天，湿漉漉的屋檐，湿漉漉的泥地，他却莫名闻见一股燃烧后的味道，这味道让他想起大火后的树林，焚烧过的庄稼，还有，那夜给晓梦烧尽的纸钱。
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 男人回头说，这原本是自家的小楼，临时改为客房，“房费没得好挑的，完全是补贴屋头”。“不要朝江的房间”，沈庄周看着男人，再次重复了一遍，“我不要看见江”。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 房屋里有股挥散不去的霉湿气息，水电管线裸露在外，简易木质床几乎占据了房间一半的面积，铝合金折叠小桌连一块桌布也没有，自顾自积着灰。窗子冲着斜对面的另一座山，做成了落地的式样。沈庄周拧开水龙头，流出来的却是黢黑的泥水，一只蟑螂不慌不忙地爬过水池边缘，钻到瓷砖中不见了。
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 房屋里有股挥散不去的霉湿气息，水电管线裸露在外，简易木质床几乎占据了房间一半的面积，铝合金折叠小桌连一块桌布也没有，自顾自积着灰。窗子冲着斜对面的另一座山，做成了落地的式样。沈庄周拧开水龙头，流出来的却是黢黑的泥水，一只蟑螂不慌不忙地爬过水池边缘，钻到瓷砖中不见了。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 沈庄周随手把背包扔在床边的地上，脱掉外套，穿着衬衫斜躺在床上。“瓜娃子，你还知道回来？”房间的隔音实在太差，店房主对于儿子的训斥，清清楚楚地飘进他耳朵。“知道你刚学会游泳劲头大，雨刚停你就出去耍，你不要命了还是咋子？”良久的沉默后，是温柔又近乎沮丧的一句，“莫惹得你妈惊抓抓。” 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
@@ -367,7 +367,7 @@
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 这么久了。他埋身于测绘数据、资料图和钻孔声波仪、大地电磁仪，荒无人烟的偏远地区、语言不通的异国小镇，所有其他勘探工程师不想去的地方他都愿意去。那些梦境却也不辞万里，从山脚爬上山顶，从树林爬进窗户，在他每一场短暂睡眠的间隙无声偷袭。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 沈庄周拿过矿泉水瓶，拧开瓶盖在手心倒了一捧水，随便抹了把脸，然后举起手看了看手表，4:37。他披上外套走出门，避开江，沿着后山的小路往上走。夏末秋初，草木仍盛，山中水杉挺拔入云，在阴沉的天色下，变成了从地面流向天空的一条条青黛色墨痕。空气里有隐隐约约的栀子花香，很像是他从前和晓梦一起闻到的那一种。 
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 沈庄周拿过矿泉水瓶，拧开瓶盖在手心倒了一捧水，随便抹了把脸，然后举起手看了看手表，4:37。他披上外套走出门，避开江，沿着后山的小路往上走。夏末秋初，草木仍盛，山中水杉挺拔入云，在阴沉的天色下，变成了从地面流向天空的一条条青黛色墨痕。空气里有隐隐约约的栀子花香，很像是他从前和晓梦一起闻到的那一种。
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 那是一次安排混乱的志愿者活动，他们和其他十位志愿者约好前往当地郊区的一个福利院，做孤儿们半日的“游泳教练”。走错地址、泳池闭馆，意料之外的事情层出不穷，所有的人都抱怨不迭，晓梦在炎夏的太阳下热红了脸，却一反常态地没有说话。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
@@ -381,11 +381,11 @@
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <span style="font-weight:bold;" __cid="cJVVrEv" class="cJVVrEv">4</span>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 沈庄周就是在这个时候听见呼救的。憨憨的声音好像是昨天车站里那个女人，却因为惊慌和无助而特别短促凄厉，“快来人啊！救救我的孩子！”他踉踉跄跄地跑过去，看见小男孩在江面下挣扎，黑色的卫衣鼓鼓地上下浮动着，像是投进洗衣机的衣服在做最后的漂洗。 
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 沈庄周就是在这个时候听见呼救的。憨憨的声音好像是昨天车站里那个女人，却因为惊慌和无助而特别短促凄厉，“快来人啊！救救我的孩子！”他踉踉跄跄地跑过去，看见小男孩在江面下挣扎，黑色的卫衣鼓鼓地上下浮动着，像是投进洗衣机的衣服在做最后的漂洗。
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 阴天，江水，沈庄周忍不住地开始发抖，但他犹豫了两秒，还是跳了下去。小男孩失去了意识，抱在沈庄周的手臂间很沉。心慌、恐惧，他几乎忘记了怎么换气。终于把小男孩托举到岸上，他双腿轻飘飘再也没有了一点力气。他记得自己曾经问过晓梦的，问她在水里闭上眼睛，脑海中出现的画面是什么。“是蓝色的光芒，像是海底的星星”。闭上眼睛，沈庄周心里想，沉下去吧，就沉下去吧。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 睁开眼睛的时候，沈庄周躺在岸边的滩涂上，头像灌了铅一样沉，耳朵里像是结了一层水膜。他微微侧头，看见男房主跪在地上，正在用手按压小男孩的上身，小男孩紧闭着眼睛，一股又一股的水从嘴里流出。胖女人跪在地上，手抠进泥土里，一动不动地盯着自己的孩子。
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 睁开眼睛的时候，沈庄周躺在岸边的滩涂上，头像灌了铅一样沉，耳朵里像是结了一层水膜。他微微侧头，看见男房主跪在地上，正在用手按压小男孩的上身，小男孩紧闭着眼睛，一股又一股的水从嘴里流出。胖女人跪在地上，手抠进泥土里，一动不动地盯着自己的孩子。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 钻过那张生锈的铁丝网，向前走就是野海了。正是夏日最适合游泳的好日子，海水澄澈如水晶，在日光下闪着粼粼的波光。海风徐徐，藏在水下的小鱼纷纷跳出来，引得一只只海鸥扑动着闪白闪白的翅膀，像拉开的弓弦，直奔着猎物而去。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
@@ -397,15 +397,15 @@
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 手脚都已麻痹，不停呛水无法呼吸，沈庄周凭借本能拼尽全力顺着水流往前去，在摸到岸的一刻，完全失去了知觉。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 后来的一切仿佛都包裹在大雾里。沈庄周不知道自己怎样走进的那个房间，他的晓梦平躺在床板上，双手低垂眼睛紧闭，钻过铁丝网时刮破的小口子，还留在她纤细的脚腕上。忽然间眼嘴鼻喉都漫上腐烂的鱼鳞和海草的气息，他跌坐在地上呕吐不止，然后晕了过去。 
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 后来的一切仿佛都包裹在大雾里。沈庄周不知道自己怎样走进的那个房间，他的晓梦平躺在床板上，双手低垂眼睛紧闭，钻过铁丝网时刮破的小口子，还留在她纤细的脚腕上。忽然间眼嘴鼻喉都漫上腐烂的鱼鳞和海草的气息，他跌坐在地上呕吐不止，然后晕了过去。
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> “醒了！醒了！”男房主的喊声把沈庄周拉回了现实，小男孩睁开了眼睛，无力地靠在胖女人的怀里。“哪个都难免遇上个意外，这个娃娃有福气”，男房主回过头来看沈庄周，架着肩膀把他扶起来。“土路两边没得防护噻，说了几次了没得人管。有时候娃娃耍得飞起，大人喝麻喽，一步打滑就被江水吃喽，这娃娃今个多亏了你”。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 胖女人抱着小男孩连声道谢，说是孩子早早醒了不肯睡，自己抱着他出来散步，不小心摔倒了，孩子掉进了江里。她一边说着，一边掉了不少眼泪，小男孩举起手抹她的眼泪，她低头看看，一下子破涕为笑。
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 胖女人抱着小男孩连声道谢，说是孩子早早醒了不肯睡，自己抱着他出来散步，不小心摔倒了，孩子掉进了江里。她一边说着，一边掉了不少眼泪，小男孩举起手抹她的眼泪，她低头看看，一下子破涕为笑。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 女人的眼睛红肿，脸因为刚刚的过分紧张仍在颤动，眼泪流到嘴边，承接了一个失而复得的笑容。这笑容直刺到沈庄周心底，他转过身，一步一步缓慢地挪回房间。 
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 女人的眼睛红肿，脸因为刚刚的过分紧张仍在颤动，眼泪流到嘴边，承接了一个失而复得的笑容。这笑容直刺到沈庄周心底，他转过身，一步一步缓慢地挪回房间。
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 凹陷的眼窝，布满红血丝的眼睛，细长的脸颊上挂着深褐色的眼袋，沈庄周伸出手摸摸自己的脸，像是第一次见到镜子里的那个人。去年的T恤空空荡荡地套在身上，自欺欺人地掩盖着那些失去的重量。沾满海草泥沙的湿衣服已经脱掉，但那些潮湿和寒意依旧紧贴着他，无论怎样也无法晾干。
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 凹陷的眼窝，布满红血丝的眼睛，细长的脸颊上挂着深褐色的眼袋，沈庄周伸出手摸摸自己的脸，像是第一次见到镜子里的那个人。去年的T恤空空荡荡地套在身上，自欺欺人地掩盖着那些失去的重量。沾满海草泥沙的湿衣服已经脱掉，但那些潮湿和寒意依旧紧贴着他，无论怎样也无法晾干。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
@@ -415,7 +415,7 @@
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 虚拟的幻境里，有时候晓梦就在他不远的地方挣扎，他刚要伸手过去，她就被水流冲走不见了踪影；有时候她一边呛水一边惊恐地大喊，庄周你救救我，救救我；有时候她就是一直望着他无助地流泪，直到双眼流出血来。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
-                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 开始他一醒来就哭，对着无尽的黑暗的夜嚎啕大哭。后来他不哭了，蜷在墙角低着头一声又一声地叹气。再后来也不叹气了，就枯坐在床沿，一直坐到天光微亮。 
+                                        <br __cid="cJVVrEv" class="cJVVrEv"/> 开始他一醒来就哭，对着无尽的黑暗的夜嚎啕大哭。后来他不哭了，蜷在墙角低着头一声又一声地叹气。再后来也不叹气了，就枯坐在床沿，一直坐到天光微亮。
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
                                         <br __cid="cJVVrEv" class="cJVVrEv"/> 在此刻被雨水隔绝的山间小屋，沈庄周再次颓然地坐在床边，身体蜷缩，像是在泥淖中不断下陷。他伸手掏出口袋里的丝绒方盒，打开它细细端详。 
                                         <br __cid="cJVVrEv" class="cJVVrEv"/>  
@@ -468,7 +468,96 @@
                     <style __cid="cJVVrEv" class="cJVVrEv">.x-panel.pcr2Erae-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcr2Erae-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcr2Erae-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcr2Erae-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcr2Erae-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcr2Erae-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcr2Erae-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcr2Erae-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcr2Erae-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
                   </div> 
                 </div>  
-                <div class="x-contents-content cJVVrEv" xid="libraryContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cJVVrEv"/>  
+                <div class="x-contents-content cJVVrEv" xid="libraryContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cJVVrEv"> 
+                  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcNVvIra-iosstatusbar cJVVrEv" xid="libraryPanel" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cJVVrEv"> 
+                    <div class="x-panel-top cJVVrEv" xid="libraryTop" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJVVrEv"> 
+                      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified underLine cJVVrEv" xid="libraryTopBar" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;selected&quot;:&quot;shelkBtn&quot;,&quot;tabbed&quot;:true}" __cid="cJVVrEv"> 
+                        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cJVVrEv" xid="button12" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;disabled&quot;:true}" __cid="cJVVrEv"> 
+                          <i xid="i32" __cid="cJVVrEv" class="cJVVrEv"/>  
+                          <span xid="span38" __cid="cJVVrEv" class="cJVVrEv"/> 
+                        </a>  
+                        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cJVVrEv" xid="button14" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;disabled&quot;:true}" __cid="cJVVrEv"> 
+                          <i xid="i30" __cid="cJVVrEv" class="cJVVrEv"/>  
+                          <span xid="span39" __cid="cJVVrEv" class="cJVVrEv"/> 
+                        </a>  
+                        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cJVVrEv" xid="shelkBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;书架&quot;,&quot;target&quot;:&quot;shelkContent&quot;}" __cid="cJVVrEv"> 
+                          <i xid="i33" __cid="cJVVrEv" class="cJVVrEv"/>  
+                          <span xid="span33" style="font-size:large;" __cid="cJVVrEv" class="cJVVrEv">书架</span> 
+                        </a>  
+                        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cJVVrEv" xid="shopBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;搜索&quot;,&quot;target&quot;:&quot;shopContent&quot;}" __cid="cJVVrEv"> 
+                          <i xid="i34" __cid="cJVVrEv" class="cJVVrEv"/>  
+                          <span xid="span34" style="font-size:large;" __cid="cJVVrEv" class="cJVVrEv">搜索</span> 
+                        </a>  
+                        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cJVVrEv" xid="button17" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;disabled&quot;:true}" __cid="cJVVrEv"> 
+                          <i xid="i36" __cid="cJVVrEv" class="cJVVrEv"/>  
+                          <span xid="span36" __cid="cJVVrEv" class="cJVVrEv"/> 
+                        </a>  
+                        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cJVVrEv" xid="button13" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;disabled&quot;:true}" __cid="cJVVrEv"> 
+                          <i xid="i31" __cid="cJVVrEv" class="cJVVrEv"/>  
+                          <span xid="span37" __cid="cJVVrEv" class="cJVVrEv"/> 
+                        </a> 
+                      </div> 
+                    </div>  
+                    <div class="x-panel-content cJVVrEv" xid="libraryCcontent2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJVVrEv"> 
+                      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cJVVrEv" xid="libraryContents" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cJVVrEv"> 
+                        <div class="x-contents-content active cJVVrEv" xid="shelkContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cJVVrEv"/>  
+                        <div class="x-contents-content x-scroll-view cJVVrEv" xid="shopContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cJVVrEv"> 
+                          <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcZf6Nzq-iosstatusbar cJVVrEv" xid="shopPanel" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cJVVrEv"> 
+                            <div class="x-panel-top cJVVrEv" xid="shopSearchTop" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJVVrEv"> 
+                              <div component="$model/UI2/system/components/justep/row/row" class="x-row cJVVrEv" xid="shopSearchRow" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJVVrEv"> 
+                                <div class="x-col cJVVrEv" xid="shopSearchCol" __cid="cJVVrEv"> 
+                                  <div class="input-group cJVVrEv" component="$model/UI2/system/components/bootstrap/inputGroup/inputGroup" xid="searchInputGroup" data-bind="component:{name:'$model/UI2/system/components/bootstrap/inputGroup/inputGroup'}" __cid="cJVVrEv"> 
+                                    <input type="text" class="form-control cJVVrEv" component="$model/UI2/system/components/justep/input/input" xid="searchInput" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cJVVrEv"/>  
+                                    <div class="input-group-btn cJVVrEv" xid="searchDiv" __cid="cJVVrEv"> 
+                                      <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-only-icon cJVVrEv" xid="searchBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-search&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cJVVrEv"> 
+                                        <i xid="i37" class="icon-android-search cJVVrEv" __cid="cJVVrEv"/>  
+                                        <span xid="span40" __cid="cJVVrEv" class="cJVVrEv"/> 
+                                      </a> 
+                                    </div> 
+                                  </div> 
+                                </div> 
+                              </div> 
+                            </div>  
+                            <div class="x-panel-content cJVVrEv" xid="shopSearchcontent" _xid="C8B51E9CAFD000018EBF6F301DB79020" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJVVrEv"> 
+                              <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cJVVrEv" xid="booksShopContainer" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" data-config="{&quot;src&quot;:&quot;$model/UI2/books/pages/booksShop.w&quot;}" __cid="cJVVrEv"> 
+                                <div xid="window" class="window cmABV7f" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cmABV7f" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,"> 
+                                  <style xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-black.cmABV7f{color: rgb(18, 22, 23)} .tb-box.cmABV7f, .tb-box.cmABV7f &gt; .col.cmABV7f{height: 100%; margin: 0; padding: 0} .tb-box.cmABV7f &gt; .col.cmABV7f{overflow: auto} .list-group.cmABV7f{box-shadow: none} .list-group-item.cmABV7f{background-color: rgb(255, 255, 255); border: none} .list-group-item.current.cmABV7f{background-color: rgb(255, 255, 255); border-left: 4px solid rgb(207, 2, 2)} .list-group-item.current.cmABV7f h5.cmABV7f{color: rgb(207, 2, 2)}</style>  
+                                  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cmABV7f" class="cmABV7f"/>  
+                                  <div component="$model/UI2/system/components/bootstrap/row/row" class="row tb-box  cmABV7f" xid="booksShopRow" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cmABV7f"> 
+                                    <div class="col col-xs-3 cmABV7f" xid="shopRootClassCol" style="border-right-style:solid;border-right-width:2px;border-right-color:#F0F3F7;" __cid="cmABV7f"> 
+                                      <div component="$model/UI2/system/components/justep/list/list" class="x-list cmABV7f" xid="shopRootClassList" dataItemAlias="rootClassRow" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;rcBaasData &quot;}" __cid="cmABV7f"> 
+                                        <ul class="x-list-template list-group hide cmABV7f" xid="listTemplateUl1" __cid="cmABV7f" data-bind="foreach:{data:$model.foreach_shopRootClassList($element),afterRender:$model.foreach_afterRender_shopRootClassList.bind($model,$element),as:'rootClassRow'}"> 
+                                          <li xid="li1" class="list-group-item text-center cmABV7f" __cid="cmABV7f" data-bind="css:{'current':rootClassRow.val('rcid')==$model.rcBaasData .val('rcid')}"> 
+                                            <h5 xid="rootClassName" class="text-black cmABV7f" __cid="cmABV7f" data-bind="text:val(&quot;rcname&quot;)">h5</h5> 
+                                          </li> 
+                                        </ul> 
+                                      </div> 
+                                    </div>  
+                                    <div class="col col-xs-9 cmABV7f" xid="shopBooksCol" __cid="cmABV7f"> 
+                                      <div component="$model/UI2/system/components/justep/list/list" class="x-list cmABV7f" xid="shopBooksInfoList" dataItemAlias="booksRow" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;bBaasData&quot;,&quot;filter&quot;:&quot; $row.val(\&quot;b_rcid\&quot;) == $model.rcBaasData.val(\&quot;rcid\&quot;)&quot;}" __cid="cmABV7f"> 
+                                        <h5 xid="rootClassSum" style="margin-left:16px;margin-top:20px;color:#121617;" __cid="cmABV7f" class="cmABV7f" data-bind="text:'共有' +  $model.rcBaasData.val(&quot;rcsum&quot;) + '部'">h5</h5>  
+                                        <ul class="x-list-template hide cmABV7f" xid="listTemplateUl2" __cid="cmABV7f" data-bind="foreach:{data:$model.foreach_shopBooksInfoList($element),afterRender:$model.foreach_afterRender_shopBooksInfoList.bind($model,$element),as:'booksRow'}"> 
+                                          <li xid="li2" class="col-xs-6 cmABV7f" __cid="cmABV7f"> 
+                                            <div xid="div1" style="height:15px;" __cid="cmABV7f" class="cmABV7f"/>  
+                                            <img src=" " alt="" xid="booksFace" style="height:120px;" __cid="cmABV7f" class="cmABV7f" data-bind="attr:{src:val(&quot;bimage&quot;)}"/>  
+                                            <h5 xid="booksName" style="color:#121617;" __cid="cmABV7f" class="cmABV7f" data-bind="text:val(&quot;bname&quot;)">h5</h5>  
+                                            <h5 xid="booksWriter" style="color:#A0A0A0;font-size:x-small;" __cid="cmABV7f" class="cmABV7f" data-bind="text:val(&quot;bwriter&quot;)">h5</h5> 
+                                          </li> 
+                                        </ul> 
+                                      </div> 
+                                    </div> 
+                                  </div> 
+                                </div> 
+                              </div> 
+                            </div>  
+                            <style __cid="cJVVrEv" class="cJVVrEv">.x-panel.pcZf6Nzq-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcZf6Nzq-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcZf6Nzq-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcZf6Nzq-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcZf6Nzq-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcZf6Nzq-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcZf6Nzq-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcZf6Nzq-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcZf6Nzq-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div>  
+                    <style __cid="cJVVrEv" class="cJVVrEv">.x-panel.pcNVvIra-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcNVvIra-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcNVvIra-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcNVvIra-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcNVvIra-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcNVvIra-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcNVvIra-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcNVvIra-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcNVvIra-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+                  </div> 
+                </div>  
                 <div class="x-contents-content cJVVrEv" xid="worldContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cJVVrEv"/>  
                 <div class="x-contents-content cJVVrEv" xid="messageContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cJVVrEv"/>  
                 <div class="x-contents-content cJVVrEv" xid="profileContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cJVVrEv"/> 
